@@ -1,0 +1,13 @@
+<div class="col-lg-3 col-md-4 col-sm-6 ">
+<div class="card" style="width: 20rem;">
+  <img  src={{profile.imagem}} class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title center"><b>{{ profile.nickname }} </b></h5>
+    <p class="card-text" ><b>Name: </b>{{ profile.name}}</p>
+    <p class="card-text" ><b>Team: </b>{{ profile.nomeEquipa}}</p>
+  <div class="center">
+    <a (click)="navegar()" class="btn btn-secondary centro">Ver mais</a>
+    <a (click)="remover()" class="btn btn-danger right">Eliminar</a>
+  </div>
+</div>
+</div>

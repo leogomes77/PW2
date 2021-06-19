@@ -1,0 +1,8 @@
+<div class="container">
+    <div class="row">
+        <app-profile
+          (profileFeito)="removerProfile($event)"
+          *ngFor="let prof of profiles ; let i=index "
+          [profile]="{name: prof.name , nickname:prof.nickname, nomeEquipa: prof.nomeEquipa , idade: prof.idade , nacionalidade: prof.nacionalidade , titulos : prof.titulos , twitter: prof.twitter , twitch : prof.twitch , insta : prof.insta , imagem: prof.imagem  , index : i}"></app-profile>
+    </div>
+</div>

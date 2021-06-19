@@ -1,0 +1,14 @@
+<body>
+<nav class="navbar navbar-light fixed-top justify-content-between">
+  <div class="" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+  <a class="navbar-brand" routerLink="">
+    <fa-icon [icon]="faCrosshair" ></fa-icon>   
+    <span><b>Player Profile</b></span>
+  </a> 
+</div> 
+  <form class="form-inline">
+    <button class="btn" id="searchbutton"type="submit"><a routerLink="/novoPerfil">Adicionar</a></button>
+  </form>
+</nav>
+<router-outlet></router-outlet>
+</body> 

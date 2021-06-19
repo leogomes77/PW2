@@ -1,0 +1,29 @@
+<div class="main">
+<div class="card" style="width: 35rem;">
+    <img src="{{profileDetalhes.imagem}}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="card-title center"><b>Full Information</b></h3>
+      <br>
+      <p class="card-text"><b>Nickname: </b>{{ profileDetalhes.nickname}}</p>
+      <p class="card-text"><b>Name: </b>{{ profileDetalhes.name}}</p>
+      <p class="card-text"><b>Team: </b>{{ profileDetalhes.team}}</p>
+      <p class="card-text"><b>Idade: </b>{{ profileDetalhes.idade}}</p>
+      <p class="card-text"><b>Nacionalidade: </b>{{ profileDetalhes.nacionalidade}}</p>
+      <p class="card-text"><b>Troféus: </b>{{ profileDetalhes.titulos}}</p>
+      <div class="social">
+        <a href={{profileDetalhes.twitch}} target="_blank" class =" twitch">
+          <fa-icon [icon]="faTwitch"></fa-icon>   
+        </a> 
+        <a href={{profileDetalhes.insta}} target="_blank" class="insta">
+          <fa-icon [icon]="faInsta"></fa-icon>   
+        </a> 
+        <a href={{profileDetalhes.twitter}} target="_blank" class="twitter">
+          <fa-icon [icon]="faTwitter"></fa-icon>   
+        </a> 
+      </div>
+      <div class="butao" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+        <a class="btn btn-secondary center" routerLink="" >Voltar</a>
+      </div> 
+    </div>
+</div>
+</div>

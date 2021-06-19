@@ -1,0 +1,42 @@
+.main {
+    max-width: 614px;
+    margin: auto;
+    margin-top: 100px; 
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.right {
+    float: right;
+}
+
+.center {
+    text-align: center;
+}
+
+p{
+    padding-left: 10px;
+}
+
+.social{
+    text-align: center;
+}
+
+.twitch{
+    color:black;
+    font-size: 2.85em;
+    padding-left: 10px;
+}
+
+.twitter{
+    color:black;
+    font-size: 3em;
+    padding-left: 25px;
+    
+}
+
+.insta{
+    color:black;
+    font-size: 3em;
+    padding-left: 25px;
+}
